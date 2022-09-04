@@ -12,23 +12,7 @@ public class Main {
     Требуется создать отдельный класс для запуска приложения и объявить метод main в нем.
 7. В том же методе main изменить год публикации одной из книг с помощью сеттера.       */
 
-        Author author01 = new Author("Лука","Мудищев");
-        Book book01 = new Book("-=Лука=-", author01, 19);
-        book01.setYear(1900);
-
-        Author author02 = new Author("Лев","Толстой");
-        Book book02= new Book("Война и мир", author02, 1867);
-
-
-        System.out.println(" NameBook = " + book01.getNameBook());
-        System.out.println(" Author = " + book01.getAuthor());
-        System.out.println(" Year = " + book01.getYear());
-
-        System.out.println(" ========= ");
-
-        System.out.println(" NameBook = " + book02.getNameBook());
-        System.out.println(" Author = " + book02.getAuthor());
-        System.out.println(" Year = " + book02.getYear());
+        // по указанию проверяющего перенес всё в класс Run
 
     }
 
